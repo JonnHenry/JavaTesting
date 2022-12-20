@@ -1,4 +1,5 @@
-import org.apache.commons.lang3.StringUtils;
+package org.example;
+
 import org.junit.Test;
 
 import static org.example.Main.repeat;
