@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f298368-1769-4805-b68a-9cb9845a6cb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/payments/PaymentGateway.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/payments/PaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/payments/PaymentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/payments/PaymentResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/player/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/util/PasswordUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/util/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/PasswordUtilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/payments/PaymentProcessorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/player/PlayerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/util/StringUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/discounts/PriceCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fizzBuzz/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/discounts/PriceCalculatorShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/fizzBuzz/FizzBuzzShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/util/DateUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/TestMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,97 +64,100 @@
       <recent name="org.example" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.fizzBuzz" />
+      <recent name="org.example.discounts" />
       <recent name="org.example.util" />
       <recent name="org.example.payments" />
       <recent name="org.example.player" />
-      <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringUtilTTest.stringIsNotEmpty">
-    <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PriceCalculatorShould">
+    <configuration name="FizzBuzzShould.numberIsDivisorTo3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.payments.*" />
+          <option name="PATTERN" value="org.example.fizzBuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.payments" />
-      <option name="MAIN_CLASS_NAME" value="org.example.payments.PaymentProcessorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringUtilTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.util" />
-      <option name="MAIN_CLASS_NAME" value="org.example.util.StringUtilTTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringUtilTTest.stringIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.util" />
-      <option name="MAIN_CLASS_NAME" value="org.example.util.StringUtilTTest" />
-      <option name="METHOD_NAME" value="stringIsEmpty" />
+      <option name="PACKAGE_NAME" value="org.example.fizzBuzz" />
+      <option name="MAIN_CLASS_NAME" value="org.example.fizzBuzz.FizzBuzzShould" />
+      <option name="METHOD_NAME" value="numberIsDivisorTo3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilTTest.stringIsNotEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PriceCalculatorShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.util.*" />
+          <option name="PATTERN" value="org.example.discounts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.util" />
-      <option name="MAIN_CLASS_NAME" value="org.example.util.StringUtilTTest" />
-      <option name="METHOD_NAME" value="stringIsNotEmpty" />
+      <option name="PACKAGE_NAME" value="org.example.discounts" />
+      <option name="MAIN_CLASS_NAME" value="org.example.discounts.PriceCalculatorShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriceCalculatorShould.applyDiscountToPrices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.discounts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.discounts" />
+      <option name="MAIN_CLASS_NAME" value="org.example.discounts.PriceCalculatorShould" />
+      <option name="METHOD_NAME" value="applyDiscountToPrices" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PriceCalculatorShould.totalIsTheSumOfPrices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.discounts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestMain" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="org.example.discounts" />
+      <option name="MAIN_CLASS_NAME" value="org.example.discounts.PriceCalculatorShould" />
+      <option name="METHOD_NAME" value="totalIsTheSumOfPrices" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriceCalculatorShould.totalZeroWhenThereArePrices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.discounts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.discounts" />
+      <option name="MAIN_CLASS_NAME" value="org.example.discounts.PriceCalculatorShould" />
+      <option name="METHOD_NAME" value="totalZeroWhenThereArePrices" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StringUtilTTest.stringIsNotEmpty" />
-        <item itemvalue="JUnit.StringUtilTTest" />
-        <item itemvalue="JUnit.StringUtilTTest.stringIsEmpty" />
-        <item itemvalue="JUnit.TestMain" />
-        <item itemvalue="JUnit.PaymentProcessorTest" />
+        <item itemvalue="JUnit.PriceCalculatorShould" />
+        <item itemvalue="JUnit.FizzBuzzShould.numberIsDivisorTo3" />
+        <item itemvalue="JUnit.PriceCalculatorShould.applyDiscountToPrices" />
+        <item itemvalue="JUnit.PriceCalculatorShould.totalZeroWhenThereArePrices" />
+        <item itemvalue="JUnit.PriceCalculatorShould.totalIsTheSumOfPrices" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +174,11 @@
       <workItem from="1671317325869" duration="601000" />
       <workItem from="1671406647814" duration="2721000" />
       <workItem from="1671415967502" duration="5994000" />
-      <workItem from="1671501436158" duration="3946000" />
+      <workItem from="1671501436158" duration="5196000" />
+      <workItem from="1671585270541" duration="266000" />
+      <workItem from="1671639383326" duration="604000" />
+      <workItem from="1671671623281" duration="1913000" />
+      <workItem from="1671762144998" duration="5798000" />
     </task>
     <servers />
   </component>
@@ -207,6 +207,49 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/discounts/PriceCalculatorShould.java</url>
+          <line>10</line>
+          <properties class="org.example.discounts.PriceCalculatorShould" method="totalZeroWhenThereArePrices">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/discounts/PriceCalculatorShould.java</url>
+          <line>16</line>
+          <properties class="org.example.discounts.PriceCalculatorShould" method="totalIsTheSumOfPrices">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/util/StringUtilT.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/util/StringUtilTTest.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/util/DateUtilTest.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/util/DateUtil.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/fizzBuzz/FizzBuzz.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
