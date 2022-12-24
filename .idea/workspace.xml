@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f298368-1769-4805-b68a-9cb9845a6cb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/discounts/PriceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/fizzBuzz/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/discounts/PriceCalculatorShould.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/fizzBuzz/FizzBuzzShould.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/util/DateUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movies/data/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movies/data/MovieRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movies/model/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movies/model/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/movies/service/MovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/movies/data/MovieRepositoryImplShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/movies/service/MovieServiceShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sql-scripts/test-data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -31,6 +33,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/corretto-1.8.0_342/src.zip!/java/util/Arrays.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -40,20 +45,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/Codigo/Java/Platzi/JavaTest/src/test/java&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "last_directory_selection": "D:/Codigo/Java/Platzi/JavaTest/src/test/java",
+    "last_opened_file_path": "D:/Codigo/Java/Platzi/testing-peliculas",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.movies.data" />
       <recent name="org.example.payments" />
       <recent name="org.example.player" />
     </key>
@@ -64,100 +72,100 @@
       <recent name="org.example" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.movies.data" />
+      <recent name="org.example.movies.service" />
       <recent name="org.example.fizzBuzz" />
       <recent name="org.example.discounts" />
       <recent name="org.example.util" />
-      <recent name="org.example.payments" />
-      <recent name="org.example.player" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PriceCalculatorShould">
-    <configuration name="FizzBuzzShould.numberIsDivisorTo3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MovieRepositoryImplShould.loadMovieByName">
+    <configuration name="MovieRepositoryImplShould.insertMovie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.fizzBuzz.*" />
+          <option name="PATTERN" value="org.example.movies.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.fizzBuzz" />
-      <option name="MAIN_CLASS_NAME" value="org.example.fizzBuzz.FizzBuzzShould" />
-      <option name="METHOD_NAME" value="numberIsDivisorTo3" />
+      <option name="PACKAGE_NAME" value="org.example.movies.data" />
+      <option name="MAIN_CLASS_NAME" value="org.example.movies.data.MovieRepositoryImplShould" />
+      <option name="METHOD_NAME" value="insertMovie" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriceCalculatorShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieRepositoryImplShould.loadAllMovies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.discounts.*" />
+          <option name="PATTERN" value="org.example.movies.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.discounts" />
-      <option name="MAIN_CLASS_NAME" value="org.example.discounts.PriceCalculatorShould" />
+      <option name="PACKAGE_NAME" value="org.example.movies.data" />
+      <option name="MAIN_CLASS_NAME" value="org.example.movies.data.MovieRepositoryImplShould" />
+      <option name="METHOD_NAME" value="loadAllMovies" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieRepositoryImplShould.loadMovieById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.movies.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.movies.data" />
+      <option name="MAIN_CLASS_NAME" value="org.example.movies.data.MovieRepositoryImplShould" />
+      <option name="METHOD_NAME" value="loadMovieById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieRepositoryImplShould.loadMovieByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.movies.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.movies.data" />
+      <option name="MAIN_CLASS_NAME" value="org.example.movies.data.MovieRepositoryImplShould" />
+      <option name="METHOD_NAME" value="loadMovieByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieServiceShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.movies.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.movies.service" />
+      <option name="MAIN_CLASS_NAME" value="org.example.movies.service.MovieServiceShould" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriceCalculatorShould.applyDiscountToPrices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.discounts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.discounts" />
-      <option name="MAIN_CLASS_NAME" value="org.example.discounts.PriceCalculatorShould" />
-      <option name="METHOD_NAME" value="applyDiscountToPrices" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriceCalculatorShould.totalIsTheSumOfPrices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.discounts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.discounts" />
-      <option name="MAIN_CLASS_NAME" value="org.example.discounts.PriceCalculatorShould" />
-      <option name="METHOD_NAME" value="totalIsTheSumOfPrices" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PriceCalculatorShould.totalZeroWhenThereArePrices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.discounts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.discounts" />
-      <option name="MAIN_CLASS_NAME" value="org.example.discounts.PriceCalculatorShould" />
-      <option name="METHOD_NAME" value="totalZeroWhenThereArePrices" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PriceCalculatorShould" />
-        <item itemvalue="JUnit.FizzBuzzShould.numberIsDivisorTo3" />
-        <item itemvalue="JUnit.PriceCalculatorShould.applyDiscountToPrices" />
-        <item itemvalue="JUnit.PriceCalculatorShould.totalZeroWhenThereArePrices" />
-        <item itemvalue="JUnit.PriceCalculatorShould.totalIsTheSumOfPrices" />
+        <item itemvalue="JUnit.MovieRepositoryImplShould.loadMovieByName" />
+        <item itemvalue="JUnit.MovieRepositoryImplShould.insertMovie" />
+        <item itemvalue="JUnit.MovieRepositoryImplShould.loadMovieById" />
+        <item itemvalue="JUnit.MovieRepositoryImplShould.loadAllMovies" />
+        <item itemvalue="JUnit.MovieServiceShould" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +186,8 @@
       <workItem from="1671585270541" duration="266000" />
       <workItem from="1671639383326" duration="604000" />
       <workItem from="1671671623281" duration="1913000" />
-      <workItem from="1671762144998" duration="5798000" />
+      <workItem from="1671762144998" duration="6015000" />
+      <workItem from="1671907700777" duration="10749000" />
     </task>
     <servers />
   </component>
@@ -250,6 +259,16 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/fizzBuzz/FizzBuzz.java</url>
           <line>4</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/example/movies/data/MovieRepositoryImplShould.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/movies/data/MovieRepositoryImpl.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
